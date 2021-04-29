@@ -1,0 +1,6 @@
+- hosts: win
+  tasks:
+  - name: Create Direcorty in windows
+    win_file:
+      path: 'c:\temp'
+      state: directory
